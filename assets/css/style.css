@@ -21,6 +21,11 @@ p {
     font-size: 14pt;
 }
 
+#p-center {
+    text-align: center;
+    transform: translate(0, -50%);
+}
+
 /* Navigation Bar */
 .navbar {
     position: fixed;
@@ -144,7 +149,7 @@ img {
     width: 100%;
 }
 
-/* Responsive layout  */
+/* Responsive layout: image grid  */
 @media screen and (max-width: 800px) {
     .column {
     flex: 50%;
@@ -152,7 +157,7 @@ img {
     }
 }
 
-/* Responsive layout  */
+/* Responsive layout: image grid  */
 @media screen and (max-width: 600px) {
     .column {
     flex: 100%;
@@ -167,12 +172,26 @@ img {
     }
 }
 
-/* Responsive layout  */
+/* Responsive layout: home screen bg image  */
 @media screen and (max-width: 1300px) {
     .bg {
     width: 180%;
     left: -40%;
     top: -5%;
+    }
+}
+
+/* Responsive layout: navbar  */
+@media screen and (max-width: 850px) {
+    .navbar a {
+    font-size: 20pt;
+    }
+}
+
+/* Responsive layout: navbar  */
+@media screen and (max-width: 850px) {
+    #navitem a {
+    font-size: 11pt;
     }
 }
 /* Hover Transparency images */
