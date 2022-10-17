@@ -21,11 +21,6 @@ p {
     font-size: 14pt;
 }
 
-#p-center {
-    text-align: center;
-    transform: translate(0, -50%);
-}
-
 /* Navigation Bar */
 .navbar {
     position: fixed;
@@ -73,17 +68,19 @@ p {
 .navbar + .container {
     padding-top: 60px;
   }
+
 .title {
     float: left;
     padding-left: 15pt;
     font-weight: 600;
-    font-size: 22pt;
+    font-size: 19pt;
     padding-top: 7pt;
 }
 
 #navitem {
     padding-right: 20px;
 }
+
 
 /* Links inside the navbar */
 #navitem a {
@@ -116,6 +113,8 @@ a {
     height: 22px;
 }
 
+
+
 /* Images */
 img {
     width:100%;
@@ -125,7 +124,7 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px;
+    padding: 0 20px;
     justify-content: center;
 }
 
@@ -133,7 +132,14 @@ img {
 .column {
     flex: 25%;
     max-width: 32%;
-    padding: 0 5px;
+    padding: 0 15px;
+}
+
+.column img {
+    margin-top: 5px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .column4 {
@@ -141,12 +147,6 @@ img {
     flex: 25%;
     max-width: 20%;
     padding: 0 5px;
-}
-
-.column img {
-    margin-top: 5px;
-    vertical-align: middle;
-    width: 100%;
 }
 
 /* Responsive layout: image grid  */
