@@ -217,8 +217,6 @@ img {
     opacity: 0.4;
 }
 
-
-
 /* LIGHTBOX */
 .hidden {
     display: none;
@@ -260,15 +258,18 @@ img {
     max-width: none;
     width: 770px;
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .about-text {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
+.about {
+    padding-top: 20px;
+}
 /* Contact Info: bottom page */
 .contact {
     display: fixed;
