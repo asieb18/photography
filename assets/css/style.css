@@ -48,15 +48,6 @@ h1 {
     z-index: 9999999;
 }
 
-/* Home Page BG image */
-.bg {
-    padding-bottom: 0;
-    margin: 0;
-    position:fixed;
-    width: 100%;
-    left: 0px;
-    top: -130pt;
-}
 
 #white {
     color: white;
@@ -71,14 +62,13 @@ h1 {
     font-weight: 100;
 }
 
-
 .container {
     padding-top: 16px;
 }
 
 .navbar + .container {
     padding-top: 60px;
-  }
+}
 
 .title {
     float: left;
@@ -91,7 +81,6 @@ h1 {
 #navitem {
     padding-right: 20px;
 }
-
 
 /* Links inside the navbar */
 #navitem a {
@@ -145,11 +134,28 @@ img {
     padding: 0 15px;
 }
 
+.column-home {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 20px;
+}
+
+.column-home img {
+    margin-top: 5px;
+    padding-bottom: 40px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 .column img {
     margin-top: 5px;
     padding-bottom: 30px;
     vertical-align: middle;
     width: 100%;
+}
+
+.container-home {
+    margin: 40px;
 }
 
 .column4 {
@@ -163,7 +169,7 @@ img {
 @media screen and (max-width: 1100px) {
     .column {
     flex: 30%;
-    max-width: 90%;
+    max-width: 50%;
     }
 }
 
@@ -192,9 +198,8 @@ img {
 
 /* Hover Transparency images */
 #pictures img:hover {
-    opacity: 70%;
+    opacity: 90%;
     transition: 0.7s;
-    cursor: pointer;
 }
 
 /* Music play/pause button*/
