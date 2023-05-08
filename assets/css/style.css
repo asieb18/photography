@@ -95,6 +95,23 @@ h1 {
     opacity: 0.6;
 }
 
+/* Home Page Navigation Bar*/
+.header {
+    font-weight: 600;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.tabs {
+    text-align: center;
+}
+
+.tabs a {
+    padding-right: 20px;
+} 
+
 /* Removes text decoration from hyperlinks. */
 a {
     text-decoration: none;
