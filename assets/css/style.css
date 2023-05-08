@@ -43,7 +43,8 @@ h1 {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     z-index: 9999999;
 }
 
@@ -70,22 +71,6 @@ h1 {
     font-weight: 100;
 }
 
-#cur {
-    background-color: black;
-}
-
-#navcurrent {
-    background-color: transparent;
-}
-
-#navcurrent a {
-    color: white;
-    font-weight: 500;
-}
-
-#navcurrent #navitem a {
-    color: white;
-}
 
 .container {
     padding-top: 16px;
@@ -139,14 +124,13 @@ a {
     height: 22px;
 }
 
-
-
-/* Images */
+/* IMAGES */
 img {
     width:100%;
     padding-bottom: 3px;
 }
 
+/* Formats grid of images */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -178,18 +162,11 @@ img {
 /* Responsive layout: image grid  */
 @media screen and (max-width: 1100px) {
     .column {
-    flex: 50%;
+    flex: 30%;
     max-width: 90%;
     }
 }
 
-/* Responsive layout: image grid  */
-@media screen and (max-width: 600px) {
-    .column {
-    flex: 100%;
-    max-width: 100%;
-    }
-}
 
 /* Responsive layout: about me description  */
 @media screen and (max-width: 1100px) {
@@ -198,19 +175,10 @@ img {
     }
 }
 
-/* Responsive layout: home screen bg image  */
-@media screen and (max-width: 1300px) {
-    .bg {
-    width: 180%;
-    left: -40%;
-    top: -5%;
-    }
-}
-
 /* Responsive layout: navbar  */
 @media screen and (max-width: 850px) {
     .navbar a {
-    font-size: 20pt;
+    font-size: 16pt;
     }
 }
 
@@ -218,8 +186,10 @@ img {
 @media screen and (max-width: 850px) {
     #navitem a {
     font-size: 11pt;
+    padding-left: 4px;
     }
 }
+
 /* Hover Transparency images */
 #pictures img:hover {
     opacity: 70%;
@@ -280,9 +250,10 @@ img {
 }
 
 /* About Page */
+/* About Me Image */
 #me {
     max-width: none;
-    width: 770px;
+    width: 400px;
     display: block;
     padding-left: 80px;
     padding-right: 80px;
