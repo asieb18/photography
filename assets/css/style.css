@@ -100,12 +100,13 @@ h1 {
     font-weight: 600;
     font-size: 24pt;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-bottom: 20px;
 }
 
 .tabs {
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .tabs a {
